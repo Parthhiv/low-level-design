@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "PowerShell($g = \\(Get-Command git -ErrorAction SilentlyContinue\\); if \\($g\\) { \"git: $\\($g.Source\\)\"; git --version } else { \"git: NOT FOUND\" }; \"---\"; $gh = \\(Get-Command gh -ErrorAction SilentlyContinue\\); if \\($gh\\) { \"gh: $\\($gh.Source\\)\" } else { \"gh: NOT FOUND\" })"
-    ]
-  }
-}
